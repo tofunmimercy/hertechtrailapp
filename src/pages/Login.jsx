@@ -2,14 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Login() {
+  
   return (
     <div className='w-full h-auto flex justify-center items-center bg-gray-200'>
       <div className="w-96 h-auto bg-white shadow-md rounded-xl p-6 flex flex-col mt-16">
           <h3 className='text-black text-2xl font-bold text-center'>HerTech</h3>
           <p className='text-gray-600 text-md font-light text-center mt-2'>Welcome back!</p>
 
-          <input type="email" placeholder="example@email.com" className='w-full h-10 rounded-lg border-2 border-gray-500 px-6 mt-4' />
-          <input type="password" placeholder="password" className='w-full h-10 rounded-lg border-2 border-gray-500 px-6 mt-4' />
+          <input type="email" placeholder="email address" className='w-full h-10 rounded-lg border-2 border-gray-500 px-6 mt-4' />
+          <input type="password" placeholder="password" className='w-full h-10 rounded-lg border-2 border-gray-500 px-6 mt-4 show' />
 
           <button className='w-full h-12 rounded-lg bg-black text-white font-bold text-md mt-5'>Login to HerTech</button>
 
