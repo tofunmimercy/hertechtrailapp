@@ -1,5 +1,6 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 
 // pages
 import Login from './pages/Login'
