@@ -26,12 +26,8 @@ export default function Login() {
        alert("you have successfully logged in");
     }
   }
-  
-   
 
   
-
-
 
   return (
     <div className='w-full h-auto flex justify-center items-center bg-gray-200'>
@@ -52,7 +48,7 @@ export default function Login() {
           <input
             type={passwordSwitch ? "text" : "password"}
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onClick={(e) => setPassword(e.target.value)} 
             placeholder="password"
             className='w-full h-10 rounded-lg border-2 border-gray-500 px-6 mt-4'
 
@@ -85,4 +81,4 @@ export default function Login() {
       </div>
     </div>
   )
-}
+};
